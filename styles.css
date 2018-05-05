@@ -1,0 +1,60 @@
+.todo {
+    padding: 30px;
+    box-shadow: 0 2px 3px 3px rgba(0,0,0,0.5);
+    margin: 50px auto;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.todo__input {
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 3px;
+    border: 1px solid #a0a0a0;
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: transparent;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn--center {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.list__item {
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.list__item:hover {
+    color: red;
+}
+
+.close-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #c9c9c9;
+    border-radius: 50%;
+}
+
+.list__item.is-checked {
+    text-decoration: line-through;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="todo">
+    <div class="todo__top">
+        <input type="text" class="js-input todo__input" placeholder="Write task here...">
+        <button class="btn btn--center js-add-btn">Add new task</button>
+    </div>
+    <ol class="todo__list js-list list">
+        <li class="list__item js-todo-item">Сделать тестовое задание</li>
+        <li class="list__item js-todo-item is-checked">Пройти собеседование</li>
+        <li class="list__item js-todo-item is-checked">Купить макбук</li>
+        <li class="list__item js-todo-item">Стать крутым разработчиком</li>
+    </ol>
+    <div class="filter">
+        <button class="btn js-filter-all">all</button>
+        <button class="btn js-filter-done">done</button>
+        <button class="btn js-filter-to-do">to do</button>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
